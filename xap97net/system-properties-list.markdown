@@ -100,3 +100,5 @@ Force disabling replication multicast adaptor. | `false` {% anchor xa %} |
 | com.gs.grid.secured | Security property indicating whether the GSM and GSC should be loaded in a secured mode. (see services.config for more info). | false (non-secured) |
 | `com.gs.deploy` | The location of the deploy directory of the GSM. | `GSHOME/deploy` |
 | `com.gs.work` | The location of the work directory of the GSM and GSC. | `GSHOME/work` |
+| `com.gs.xapnet.read-datetime-as-utc` | determine whether DateTime values read from the space should be converted from UTC to local time | false |
+
