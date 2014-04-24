@@ -650,6 +650,7 @@ Primary instances will be provisioned in the configured order - A,C,D.
 
 * Deterministic deployment supports only clusters with singe backup (X,1).
 * Deterministic deployment requires to set _max-instances-per-zone_ to 1.
+* Deterministic deployment is not supported with secured grid in 9.7 version.
 
 In the above example: max-instances-per-zone="A/1,B/1.
 
