@@ -95,6 +95,9 @@ When coming to choose the right option for your system, the following should be 
 * Size of Processing Unit JAR file and Processing Unit deployment time
 * Isolation (sharing classes between Processing Units)
 * Frequency of updating the library JAR
+* In addition special attention is required to xml parsing related jars that have parallels in jdk itself, If your pu requires use of one of those jar,you should place ALL related jars in lib/platform/ext 
+starting with 10.1 version the product doesn't include xml parsing jars under lib/platform/xml and use default jdk jars.
+
 
 
 
